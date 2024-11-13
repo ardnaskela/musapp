@@ -1,0 +1,32 @@
+{
+    "flutter": {
+        "platforms": {
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "musapp-98231",
+                    "configurations": {
+                        "web": "1:605676209545:web:9f43effd224cd7bc18cd58"
+                    }
+                }
+            }
+        }
+    },
+    "hosting": {
+        "public": "build/web/",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+        "frameworksBackend": {
+            "region": "europe-west1"
+        }
+    },
+    "headers": [
+        {
+            "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+            "headers": [
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                }
+            ]
+        }
+    ]
+}
